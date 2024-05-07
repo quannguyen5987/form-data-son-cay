@@ -1,45 +1,125 @@
-*{
+* {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 	font-family: 'poppins', sans-serif;
 	font-size: 18px;
 }
-body{
-	height: 100vh;
+
+.form {
+
+	width: 100%;
+	background-color: rgb(233, 234, 237);
 	display: flex;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
 	align-items: center;
-	justify-content: center;
+
+	margin: 0px auto;
+	margin: -4px 0px 0px 0px;
 }
-.container{
-	width: 500px;
-	padding: 30px;
-	border: 1px solid #eeeeee;
-	border-radius: 10px;
-	background-color: #003b5b;
+
+.form1 {
+	background-color: rgba(210, 210, 210, 0.2);
+	display: flex;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	align-items: center;
+
+	margin: 0px auto;
+	width: 900px;
 }
-h4{
+
+.formthongtn {
+	/* background-color: rgba(210, 210, 210, 0.2); */
+
+
+	margin: 0px auto;
+	margin-top: 40px;
+	width: 750px;
+}
+
+
+.chuto {
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	letter-spacing: 0.00938em;
+	font-size: 14px;
+	font-weight: 750;
+}
+
+.c3 {
+	margin-top: 14px;
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.00938em;
+	font-size: 14px;
+}
+.c4{
+    color: rgba(0, 0, 0, 0.6);
+    /* font-family: Roboto, Helvetica, Arial, sans-serif; */
+    line-height: 1.4375em;
+    font-weight: 600;
+    font-size: 15px;
+	margin-bottom: 8px;
+	margin-top: 16px;
+}
+
+.inpubcheckbot{
+
+	/* margin-top: 10px; */
+}
+
+.anh {
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	border: 0px;
+	padding: 0px;
+
+}
+
+.subpmit{
+	width: 100px;
+}
+
+.anh44 {
+	width: 100%;
+	margin: 0px 0px -16px 0px;
+	border: 0px;
+	padding: 0px;
+
+}
+
+
+h4 {
 	margin-bottom: 10px;
 	font-size: 24px;
 	color: white;
 }
-input{
+
+input {
 	width: 100%;
 	padding: 10px;
 	margin-bottom: 10px;
 }
-textarea{
+
+textarea {
 	width: 100%;
 	padding: 10px;
 }
-#submit{
+
+#submit {
 	border: none;
-	background-color: orangered;
+	background-color: rgb(61, 86, 147);
 	color: white;
-	width: 200px;
+	width: 120px;
 	margin-top: 10px;
-	border-radius: 5px;
+	border-radius: 4px;
 }
-#submit:hover{
+
+#submit:hover {
 	background-color: #333333;
 }
