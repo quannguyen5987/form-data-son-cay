@@ -111,7 +111,7 @@ textarea {
 	padding: 10px;
 }
 
-#submit {
+.subpmit {
 	border: none;
 	background-color: rgb(61, 86, 147);
 	color: white;
@@ -120,6 +120,6 @@ textarea {
 	border-radius: 4px;
 }
 
-#submit:hover {
+.subpmit:hover {
 	background-color: #333333;
 }
